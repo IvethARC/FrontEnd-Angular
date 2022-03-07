@@ -1,0 +1,12 @@
+<div *ngIf="cartItems.length===0" class="alert alert-info">No hay productos en su lista</div>
+
+<ul *ngIf="cartItems.length>0" class="list-group">
+        <li class="list-group-item" *ngFor="let item of cartItems">
+            <app-cart-item [cartItem]="item"></app-cart-item>
+        </li>
+
+        <li class="list-group-item active"style="background-color:#57a639; border: 1px solid #57a639; text-align:center">
+            <strong>Total: $ {{ cartTotal }}</strong>
+        </li>
+</ul>
+

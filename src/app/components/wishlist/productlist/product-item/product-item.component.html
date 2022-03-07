@@ -1,0 +1,25 @@
+<div class="card mb-4 shadow-sm">
+  
+  <img class="bd-placeholder-img card-img-center" width="100%" [src]="productItem.image_url"/>
+
+  <div class="card-body">
+    
+    <p class="card-text">
+      <strong><small class="text-muted">$ {{ productItem.price }}</small></strong>
+      <i *ngIf="addedToWishlist" class="fas fa-heart" style="float:right" (click)="handleRemoveFromWishlist()"></i>
+      <i *ngIf="!addedToWishlist" class="far fa-heart" style="float:right" (click)="handleAddToWishlist()"></i>
+    </p><br>
+
+    <p class="card-text">
+      <strong>{{productItem.name}}</strong>&nbsp;<font [size]="1">Referencia:{{productItem.id}}</font><br><br>
+      {{ productItem.information }}<br><br>
+      Cantidad en Stock: {{ productItem.amount }}
+    </p>
+  
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="btn-group">
+        <button type="button" class="btn btn-sm btn-primary product-btn" style="background-color:#57a639; border: 1px solid #57a639" (click)="handleAddToCart()">Agregar</button>
+      </div>
+    </div>
+  </div>
+</div>

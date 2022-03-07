@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arapey&family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arapey&family=Lato:ital,wght@0,100;1,300&family=Nunito+Sans:wght@300&display=swap');
+
+body{
+    background-image: url(https://img.freepik.com/foto-gratis/representacion-3d-deja-formando-simbolo-reciclaje-verde-naturaleza-medio-ambiente-reciclaje-ilustracion-abstracta-concepto-fondo-plastico-biodegradable-signo-paquete-libre_44651-563.jpg?size=626&ext=jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.header.navbar {
+    background-color: transparent !important;
+    font-family: 'Lato', sans-serif;
+    
+  }
+
+.imglogo{
+    width: 180px;
+    margin: 25px;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 48pt;
+    text-shadow: 2px 2px 2px #57a639;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    color: black;
+    
+}
+
+
+.photofooter{
+    width: 200px;
+
+}
+
+.cart-item{
+    font-size: small;
+}
+
+.filters{
+    font-size: small;
+}
+
+.card, .form-control, .btn{
+    border-radius: 0;
+}
+
+.list-group-item:first-child{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.list-group-item:last-child{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.fa-heart{
+    color: #F7ACCF;
+    cursor: pointer;
+}
+
+
+.btn-group {
+    width: 100%;
+}
+
+.card-body{
+    height: 350px;
+}
+

@@ -1,0 +1,261 @@
+{
+  "cart": [
+    {
+      "product": {
+        "id": 2,
+        "name": "Vasos desechables de 7 onzas",
+        "price": 2800,
+        "amount": 5569,
+        "information": "Paquetes por 50 vasos de plástico desechables transparentes de 7 onzas",
+        "image_url": "https://www.feministastramando.cl/wp-content/uploads/2019/02/Vasos-desechables.jpg"
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Tapas para vasos desechables de 7 onzas",
+        "price": 500,
+        "amount": 0,
+        "information": "Paquetes de 50 tapas transparentes para vasos desechables de 7 onzas",
+        "image_url": "https://www.grupocrisol.com/recursos/bigs/4436_1.jpg"
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Vasos desechables de 7 onzas",
+        "price": 2800,
+        "amount": 5569,
+        "information": "Paquetes por 50 vasos de plástico desechables transparentes de 7 onzas",
+        "image_url": "https://www.feministastramando.cl/wp-content/uploads/2019/02/Vasos-desechables.jpg"
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Tapas para vasos desechables de 7 onzas",
+        "price": 500,
+        "amount": 0,
+        "information": "Paquetes de 50 tapas transparentes para vasos desechables de 7 onzas",
+        "image_url": "https://www.grupocrisol.com/recursos/bigs/4436_1.jpg"
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Tapas para vasos desechables de 7 onzas",
+        "price": 500,
+        "amount": 0,
+        "information": "Paquetes de 50 tapas transparentes para vasos desechables de 7 onzas",
+        "image_url": "https://www.grupocrisol.com/recursos/bigs/4436_1.jpg"
+      },
+      "id": 5
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Tapas para vasos desechables de 7 onzas",
+        "price": 500,
+        "amount": 0,
+        "information": "Paquetes de 50 tapas transparentes para vasos desechables de 7 onzas",
+        "image_url": "https://www.grupocrisol.com/recursos/bigs/4436_1.jpg"
+      },
+      "id": 6
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Tapas para vasos desechables de 7 onzas",
+        "price": 500,
+        "amount": 0,
+        "information": "Paquetes de 50 tapas transparentes para vasos desechables de 7 onzas",
+        "image_url": "https://www.grupocrisol.com/recursos/bigs/4436_1.jpg"
+      },
+      "id": 7
+    },
+    {
+      "product": {
+        "id": 4,
+        "name": "Bandejas con Domo",
+        "price": 1400,
+        "amount": 859,
+        "information": "Bandejas negras con domo alto de 6 centimetros. Bandejas número 9 por unidad $ 800. Domos para bandejas por unidad $ 600.",
+        "image_url": "https://desechablesdiversos.com/enlinea/wp-content/uploads/2020/04/00157.jpg"
+      },
+      "id": 8
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Vasos de cartón para sopas",
+        "price": 1200,
+        "amount": 559,
+        "information": "Contenedores de cartón de 12 onzas para alimentos calientes. Cierre hermético, anti-derrames.",
+        "image_url": "https://plastifar.com/es/wp-content/uploads/sites/3/2017/09/13030-4.jpg"
+      },
+      "id": 9
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Tapas para vasos desechables de 7 onzas",
+        "price": 500,
+        "amount": 0,
+        "information": "Paquetes de 50 tapas transparentes para vasos desechables de 7 onzas",
+        "image_url": "https://www.grupocrisol.com/recursos/bigs/4436_1.jpg"
+      },
+      "id": 10
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Tapas para vasos desechables de 7 onzas",
+        "price": 500,
+        "amount": 0,
+        "information": "Paquetes de 50 tapas transparentes para vasos desechables de 7 onzas",
+        "image_url": "https://www.grupocrisol.com/recursos/bigs/4436_1.jpg"
+      },
+      "id": 11
+    },
+    {
+      "product": {
+        "id": 4,
+        "name": "Bandejas con Domo",
+        "price": 1400,
+        "amount": 859,
+        "information": "Bandejas negras con domo alto de 6 centimetros. Bandejas número 9 por unidad $ 800. Domos para bandejas por unidad $ 600.",
+        "image_url": "https://desechablesdiversos.com/enlinea/wp-content/uploads/2020/04/00157.jpg"
+      },
+      "id": 12
+    },
+    {
+      "product": {
+        "id": 7,
+        "name": "Portacomidas",
+        "price": 1300,
+        "amount": 659,
+        "information": "Contenedores para tranportar alimentos con tres divisiones y tapa transparente separada que sirve como base.",
+        "image_url": "https://tienda.carvajalempaques.com/wp-content/uploads/2020/12/2400027104-PORTACOMIDA-ESPUMADO-J2-WAU-BLANCO-PSE-X-200-ABIERTO-1.jpg"
+      },
+      "id": 13
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Vasos desechables de 7 onzas",
+        "price": 2800,
+        "amount": 5569,
+        "information": "Paquetes por 50 vasos de plástico desechables transparentes de 7 onzas",
+        "image_url": "https://www.feministastramando.cl/wp-content/uploads/2019/02/Vasos-desechables.jpg"
+      },
+      "id": 14
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Vasos desechables de 7 onzas",
+        "price": 2800,
+        "amount": 5569,
+        "information": "Paquetes por 50 vasos de plástico desechables transparentes de 7 onzas",
+        "image_url": "https://www.feministastramando.cl/wp-content/uploads/2019/02/Vasos-desechables.jpg"
+      },
+      "id": 15
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Vasos desechables de 7 onzas",
+        "price": 2800,
+        "amount": 5569,
+        "information": "Paquetes por 50 vasos de plástico desechables transparentes de 7 onzas",
+        "image_url": "https://www.feministastramando.cl/wp-content/uploads/2019/02/Vasos-desechables.jpg"
+      },
+      "id": 16
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Vasos desechables de 7 onzas",
+        "price": 2800,
+        "amount": 5569,
+        "information": "Paquetes por 50 vasos de plástico desechables transparentes de 7 onzas",
+        "image_url": "https://www.feministastramando.cl/wp-content/uploads/2019/02/Vasos-desechables.jpg"
+      },
+      "id": 17
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Vasos desechables de 7 onzas",
+        "price": 2800,
+        "amount": 5569,
+        "information": "Paquetes por 50 vasos de plástico desechables transparentes de 7 onzas",
+        "image_url": "https://www.feministastramando.cl/wp-content/uploads/2019/02/Vasos-desechables.jpg"
+      },
+      "id": 18
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Vasos desechables de 7 onzas",
+        "price": 2800,
+        "amount": 5569,
+        "information": "Paquetes por 50 vasos de plástico desechables transparentes de 7 onzas",
+        "image_url": "https://www.feministastramando.cl/wp-content/uploads/2019/02/Vasos-desechables.jpg"
+      },
+      "id": 19
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Vasos de cartón para sopas",
+        "price": 1200,
+        "amount": 559,
+        "information": "Contenedores de cartón de 12 onzas para alimentos calientes. Cierre hermético, anti-derrames.",
+        "image_url": "https://plastifar.com/es/wp-content/uploads/sites/3/2017/09/13030-4.jpg"
+      },
+      "id": 20
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 3
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 7
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
