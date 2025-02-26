@@ -11,7 +11,14 @@ import { WishlistService } from '../../../../services/wish-list.service';
 })
 export class ProductItemComponent implements OnInit {
 
-  @Input() productItem: Product;
+  @Input() productItem: Product = {
+    id: 0,
+    title: '',
+    price: 0,
+    amount: 0,
+    description: '',
+    image: ''
+  };
 
   addedToWishlist: boolean = false;
 

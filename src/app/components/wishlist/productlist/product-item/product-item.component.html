@@ -1,6 +1,6 @@
-<div class="card mb-4 shadow-sm">
+<!-- <div class="card mb-4 shadow-sm">
   
-  <img class="bd-placeholder-img card-img-center" width="100%" [src]="productItem.image_url"/>
+  <img class="bd-placeholder-img card-img-center" [src]="productItem.image"/>
 
   <div class="card-body">
     
@@ -11,15 +11,38 @@
     </p><br>
 
     <p class="card-text">
-      <strong>{{productItem.name}}</strong>&nbsp;<font [size]="1">Referencia:{{productItem.id}}</font><br><br>
-      {{ productItem.information }}<br><br>
+      <strong>{{productItem.title}}</strong>&nbsp;<font [size]="1">Referencia:{{productItem.id}}</font><br><br>
+      {{ productItem.description }}<br><br>
       Cantidad en Stock: {{ productItem.amount }}
     </p>
   
     <div class="d-flex justify-content-between align-items-center">
       <div class="btn-group">
-        <button type="button" class="btn btn-sm btn-primary product-btn" style="background-color:#57a639; border: 1px solid #57a639" (click)="handleAddToCart()">Agregar</button>
+        <button type="button" class="btn btn-sm btn-primary product-btn" style="background-color:#57a639; border: 1px solid #57a639" >Agregar</button>
       </div>
     </div>
+  </div>
+</div> -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+<div class = "card">
+  <img [src]="productItem.image" alt="">
+  <div class="card-content">
+    <h2>
+      {{productItem.title}}
+    </h2>
+    <p>
+      {{ productItem.description }}
+    </p>
+    <p (click)="handleAddToCart()" class="button">
+      Agregar 
+      <span class="material-symbols-outlined">
+        arrow_right_alt
+      </span>
+    </p>
   </div>
 </div>

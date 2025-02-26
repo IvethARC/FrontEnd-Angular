@@ -13,7 +13,7 @@ import { Product } from '../../../models/product';
 
 export class ProductlistComponent implements OnInit {
 
-  productList:Product[]= []
+  public productList:Product[]= [];
   //wishlist: number[] = []
 
   constructor(
@@ -27,12 +27,15 @@ export class ProductlistComponent implements OnInit {
 
   }
 
-  loadProducts(){
+  loadProducts() {
     this.productService.getProducts().subscribe((products) => {
+      console.log('Productos recibidos:', products);
       this.productList = products;
-    })
-
+    }, (error) => {
+      console.error('Error al obtener productos:', error);
+    });
   }
+  
 /*
   loadWishlist() {
     this.wishlistService.getWishlist().subscribe(productIds => {
